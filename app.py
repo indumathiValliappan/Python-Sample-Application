@@ -90,7 +90,7 @@ def submit():
 
 @app.route('/demo', methods=['GET'])
 def demo():
-    """Demo.html is a template that calls the other routes in this example."""
+    """Demo.html is a temp that calls the other routes in this example."""
     return render_template('demo.html', token=session.get('access_token'))
 
 
