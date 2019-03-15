@@ -1,4 +1,5 @@
 function action(endpoint_name) {
+	#test
     window.location.replace('/' + endpoint_name);
 }
 
