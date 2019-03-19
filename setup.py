@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-#TEST
+#TES
 #check
 setup(
     name='Python-Sample-Application',
